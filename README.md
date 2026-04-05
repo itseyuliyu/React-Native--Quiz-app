@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+# 🧠 QuizMaster - React Native Quiz App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, engaging, and feature-rich mobile quiz application built with **React Native**. Test your knowledge across multiple categories with a timed challenge, instant feedback, and persistent high scores.
 
-## Get started
+![App Banner](https://via.placeholder.com/800x400/0f172a/3b82f6?text=QuizMaster)  
+*(Replace with a real screenshot of your app once you have one)*
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- **Professional Login Screen** with username input and smooth navigation
+- **Three Quiz Categories**:
+  - ⚛️ React Native
+  - 🌍 General Knowledge
+- **30-Second Timer** per question with visual countdown bar (green → yellow → red)
+- **Instant Feedback** — correct answers turn green, wrong ones turn red
+- **Progress Indicator** with question counter and bar
+- **High Score System** — tracks and saves your best score per category using AsyncStorage
+- **New High Score Celebration** when you beat your record
+- **Detailed Results Screen** showing:
+  - Final score & percentage
+  - Total time taken
+  - Best score for the category
+- **Retry Option** for the same quiz
+- **Dark Modern UI** with smooth animations and polished design
+- Persistent data (high scores survive app restarts)
 
-2. Start the app
+## 🚀 Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+- **React Native** (with TypeScript support)
+- **React Hooks** (`useState`, `useEffect`)
+- **AsyncStorage** — for local high score persistence
+- **React Native Core Components** (View, Text, TouchableOpacity, TextInput, et
 
-In the output, you'll find options to open the app in a
+*(Add screenshots here after running the app)*
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Login Screen
+- Home / Category Selection
+- Quiz Screen with Timer
+- Results Screen
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
